@@ -11,13 +11,13 @@ from functools import wraps
 from datetime import datetime, timedelta
 
 # Cấu hình bot - Token mới
-TOKEN = "7606131282:AAHxi1F1GNxRiNICE1B-HxKPBFKcTHa8j50"
+TOKEN = "7760706295:AAEt3CTNHqiJZyFQU7lJrvatXZST_JwD5Ds"
 bot = TeleBot(TOKEN)
 
 
 
 # Biến toàn cục
-core_admins = [6683331082]  # ID của admin chính duy nhất
+core_admins = [6367528163]  # ID của admin chính duy nhất
 vip_users = set()  # Danh sách người dùng VIP
 running_tasks = {}  # Theo dõi các tác vụ đang chạy
 waiting_users = {}  # Theo dõi người dùng đang trong thời gian chờ
